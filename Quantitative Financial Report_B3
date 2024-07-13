@@ -1,0 +1,1088 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "0431086c7de54083a05083cb12e0e65c": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_cd452ee36d8c4ddca8f0ccb2807ab8fc",
+              "IPY_MODEL_c9089b93553f46328638b4d8b12427f9",
+              "IPY_MODEL_245a86fe3d1743e698838aa1d7f3e965"
+            ],
+            "layout": "IPY_MODEL_f55990bcef854a8fa41d43021d520bb6"
+          }
+        },
+        "cd452ee36d8c4ddca8f0ccb2807ab8fc": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_557cbe8fd38148e59d702aff58140345",
+            "placeholder": "​",
+            "style": "IPY_MODEL_3650b8f838994759a29bdd4cfa176b57",
+            "value": "Done! Use &#x27;show&#x27; commands to display/save.   "
+          }
+        },
+        "c9089b93553f46328638b4d8b12427f9": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_a3f2fa500a524724a3aa9bf20dff6947",
+            "max": 1,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_4f6fa501d71e47ad87967e48edd33707",
+            "value": 1
+          }
+        },
+        "245a86fe3d1743e698838aa1d7f3e965": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_ce695936c7f84059a5af9d988ade1928",
+            "placeholder": "​",
+            "style": "IPY_MODEL_1ae0d3b0909d4080a8f2181e4cf88845",
+            "value": " [100%]   00:02 -&gt; (00:00 left)"
+          }
+        },
+        "f55990bcef854a8fa41d43021d520bb6": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": "inline-flex",
+            "flex": null,
+            "flex_flow": "row wrap",
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": "100%"
+          }
+        },
+        "557cbe8fd38148e59d702aff58140345": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "3650b8f838994759a29bdd4cfa176b57": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "a3f2fa500a524724a3aa9bf20dff6947": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": "2",
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "4f6fa501d71e47ad87967e48edd33707": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "ce695936c7f84059a5af9d988ade1928": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "1ae0d3b0909d4080a8f2181e4cf88845": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "---\n",
+        "# *Relatório Financeiro/Quant - B3*\n",
+        "---\n"
+      ],
+      "metadata": {
+        "id": "MRSLFkB9ARdU"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Instalando e importando Bibliotecas - Installing and Importing Libraries**"
+      ],
+      "metadata": {
+        "id": "QJXMvnGDAaWr"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4KmNnTD_8dS1",
+        "outputId": "f85da0f9-e9f0-4966-e8e0-e203c541cec1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting sweetviz\n",
+            "  Downloading sweetviz-2.3.1-py3-none-any.whl (15.1 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m15.1/15.1 MB\u001b[0m \u001b[31m21.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: pandas!=1.0.0,!=1.0.1,!=1.0.2,>=0.25.3 in /usr/local/lib/python3.10/dist-packages (from sweetviz) (2.0.3)\n",
+            "Requirement already satisfied: numpy>=1.16.0 in /usr/local/lib/python3.10/dist-packages (from sweetviz) (1.25.2)\n",
+            "Requirement already satisfied: matplotlib>=3.1.3 in /usr/local/lib/python3.10/dist-packages (from sweetviz) (3.7.1)\n",
+            "Requirement already satisfied: tqdm>=4.43.0 in /usr/local/lib/python3.10/dist-packages (from sweetviz) (4.66.4)\n",
+            "Requirement already satisfied: scipy>=1.3.2 in /usr/local/lib/python3.10/dist-packages (from sweetviz) (1.11.4)\n",
+            "Requirement already satisfied: jinja2>=2.11.1 in /usr/local/lib/python3.10/dist-packages (from sweetviz) (3.1.4)\n",
+            "Requirement already satisfied: importlib-resources>=1.2.0 in /usr/local/lib/python3.10/dist-packages (from sweetviz) (6.4.0)\n",
+            "Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2>=2.11.1->sweetviz) (2.1.5)\n",
+            "Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=3.1.3->sweetviz) (1.2.1)\n",
+            "Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=3.1.3->sweetviz) (0.12.1)\n",
+            "Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=3.1.3->sweetviz) (4.53.1)\n",
+            "Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=3.1.3->sweetviz) (1.4.5)\n",
+            "Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=3.1.3->sweetviz) (24.1)\n",
+            "Requirement already satisfied: pillow>=6.2.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=3.1.3->sweetviz) (9.4.0)\n",
+            "Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=3.1.3->sweetviz) (3.1.2)\n",
+            "Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=3.1.3->sweetviz) (2.8.2)\n",
+            "Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas!=1.0.0,!=1.0.1,!=1.0.2,>=0.25.3->sweetviz) (2023.4)\n",
+            "Requirement already satisfied: tzdata>=2022.1 in /usr/local/lib/python3.10/dist-packages (from pandas!=1.0.0,!=1.0.1,!=1.0.2,>=0.25.3->sweetviz) (2024.1)\n",
+            "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.7->matplotlib>=3.1.3->sweetviz) (1.16.0)\n",
+            "Installing collected packages: sweetviz\n",
+            "Successfully installed sweetviz-2.3.1\n"
+          ]
+        }
+      ],
+      "source": [
+        "!pip install sweetviz"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import sweetviz as sv\n",
+        "import yfinance as yf\n",
+        "import pandas as pd"
+      ],
+      "metadata": {
+        "id": "SX950pV88qL3"
+      },
+      "execution_count": 11,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#### **Downloading Data**"
+      ],
+      "metadata": {
+        "id": "TqWlZF3T80AE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ticker_IBOV = ['VALE3', 'PETR4', 'WEGE3', 'ITUB4', 'MGLU3',\n",
+        "               'BBDC4', 'ABEV3', 'BBAS3', 'ELET3', 'RENT3',\n",
+        "               'ITSA4', 'JBSS3', 'SUZB3', 'LREN3', 'EQTL3']"
+      ],
+      "metadata": {
+        "id": "DAgjWnoA8r2K"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ticker_IBOV = [x + '.SA' for x in ticker_IBOV]"
+      ],
+      "metadata": {
+        "id": "XS2bBC9g9B-5"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ticker_IBOV"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fMsn3OWD9GSh",
+        "outputId": "c8aab8f7-8773-4c93-ba5a-0ce582e82f5c"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['VALE3.SA',\n",
+              " 'PETR4.SA',\n",
+              " 'WEGE3.SA',\n",
+              " 'ITUB4.SA',\n",
+              " 'MGLU3.SA',\n",
+              " 'BBDC4.SA',\n",
+              " 'ABEV3.SA',\n",
+              " 'BBAS3.SA',\n",
+              " 'ELET3.SA',\n",
+              " 'RENT3.SA',\n",
+              " 'ITSA4.SA',\n",
+              " 'JBSS3.SA',\n",
+              " 'SUZB3.SA',\n",
+              " 'LREN3.SA',\n",
+              " 'EQTL3.SA']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ticker_IBOV.extend(['^BVSP','BRL=x'])"
+      ],
+      "metadata": {
+        "id": "tIx-S6lU9IiI"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "data_inicio = '2012-01-01'\n",
+        "data_fim = '2024-07-13'"
+      ],
+      "metadata": {
+        "id": "jO9GqAB79LGw"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dados_close = yf.download(ticker_IBOV, start=data_inicio, end=data_fim)['Adj Close']"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cyud42KI9SuY",
+        "outputId": "6e1b907b-cdd7-45d4-af93-150089823824"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "[*********************100%%**********************]  17 of 17 completed\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dados_close.head()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 344
+        },
+        "id": "0nDeh5VI9V7X",
+        "outputId": "0368026f-7fb5-40d9-b0e0-567e3f004545"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "Ticker      ABEV3.SA  BBAS3.SA  BBDC4.SA   BRL=X   ELET3.SA  EQTL3.SA  \\\n",
+              "Date                                                                    \n",
+              "2012-01-02  6.764980  5.308814  6.076441  1.8623   9.847318  2.054667   \n",
+              "2012-01-03  6.687880  5.284771  6.208283  1.8701   9.981219  2.007896   \n",
+              "2012-01-04  6.532434  5.258546  6.218191  1.8345  10.427556  2.040152   \n",
+              "2012-01-05  6.403105  5.203903  6.178595  1.8184  10.215547  2.048216   \n",
+              "2012-01-06  6.386938  5.072769  6.255805  1.8430  10.120700  2.056280   \n",
+              "\n",
+              "Ticker      ITSA4.SA  ITUB4.SA  JBSS3.SA  LREN3.SA  MGLU3.SA  PETR4.SA  \\\n",
+              "Date                                                                     \n",
+              "2012-01-02  2.548562  8.926904  3.966270  5.708135  2.503576  6.446401   \n",
+              "2012-01-03  2.624058  9.149874  4.086246  5.685747  2.487424  6.702820   \n",
+              "2012-01-04  2.628633  9.160366  4.163877  5.626431  2.463196  6.750675   \n",
+              "2012-01-05  2.617195  9.092162  4.234452  5.817819  2.441660  6.672909   \n",
+              "2012-01-06  2.630921  9.160366  4.283854  5.898404  2.508960  6.678889   \n",
+              "\n",
+              "Ticker      RENT3.SA  SUZB3.SA   VALE3.SA  WEGE3.SA    ^BVSP  \n",
+              "Date                                                          \n",
+              "2012-01-02  6.117510  17.11215  19.934238  2.171179      NaN  \n",
+              "2012-01-03  6.301788  17.11215  20.821287  2.222374  59265.0  \n",
+              "2012-01-04  6.062910  17.11215  20.962629  2.234010  59365.0  \n",
+              "2012-01-05  5.874084  17.11215  20.402132  2.247974  58546.0  \n",
+              "2012-01-06  5.915033  17.11215  20.226673  2.222374  58600.0  "
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-0f1c4065-7042-4c8d-be27-ab75dad01cea\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th>Ticker</th>\n",
+              "      <th>ABEV3.SA</th>\n",
+              "      <th>BBAS3.SA</th>\n",
+              "      <th>BBDC4.SA</th>\n",
+              "      <th>BRL=X</th>\n",
+              "      <th>ELET3.SA</th>\n",
+              "      <th>EQTL3.SA</th>\n",
+              "      <th>ITSA4.SA</th>\n",
+              "      <th>ITUB4.SA</th>\n",
+              "      <th>JBSS3.SA</th>\n",
+              "      <th>LREN3.SA</th>\n",
+              "      <th>MGLU3.SA</th>\n",
+              "      <th>PETR4.SA</th>\n",
+              "      <th>RENT3.SA</th>\n",
+              "      <th>SUZB3.SA</th>\n",
+              "      <th>VALE3.SA</th>\n",
+              "      <th>WEGE3.SA</th>\n",
+              "      <th>^BVSP</th>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Date</th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "      <th></th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>2012-01-02</th>\n",
+              "      <td>6.764980</td>\n",
+              "      <td>5.308814</td>\n",
+              "      <td>6.076441</td>\n",
+              "      <td>1.8623</td>\n",
+              "      <td>9.847318</td>\n",
+              "      <td>2.054667</td>\n",
+              "      <td>2.548562</td>\n",
+              "      <td>8.926904</td>\n",
+              "      <td>3.966270</td>\n",
+              "      <td>5.708135</td>\n",
+              "      <td>2.503576</td>\n",
+              "      <td>6.446401</td>\n",
+              "      <td>6.117510</td>\n",
+              "      <td>17.11215</td>\n",
+              "      <td>19.934238</td>\n",
+              "      <td>2.171179</td>\n",
+              "      <td>NaN</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2012-01-03</th>\n",
+              "      <td>6.687880</td>\n",
+              "      <td>5.284771</td>\n",
+              "      <td>6.208283</td>\n",
+              "      <td>1.8701</td>\n",
+              "      <td>9.981219</td>\n",
+              "      <td>2.007896</td>\n",
+              "      <td>2.624058</td>\n",
+              "      <td>9.149874</td>\n",
+              "      <td>4.086246</td>\n",
+              "      <td>5.685747</td>\n",
+              "      <td>2.487424</td>\n",
+              "      <td>6.702820</td>\n",
+              "      <td>6.301788</td>\n",
+              "      <td>17.11215</td>\n",
+              "      <td>20.821287</td>\n",
+              "      <td>2.222374</td>\n",
+              "      <td>59265.0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2012-01-04</th>\n",
+              "      <td>6.532434</td>\n",
+              "      <td>5.258546</td>\n",
+              "      <td>6.218191</td>\n",
+              "      <td>1.8345</td>\n",
+              "      <td>10.427556</td>\n",
+              "      <td>2.040152</td>\n",
+              "      <td>2.628633</td>\n",
+              "      <td>9.160366</td>\n",
+              "      <td>4.163877</td>\n",
+              "      <td>5.626431</td>\n",
+              "      <td>2.463196</td>\n",
+              "      <td>6.750675</td>\n",
+              "      <td>6.062910</td>\n",
+              "      <td>17.11215</td>\n",
+              "      <td>20.962629</td>\n",
+              "      <td>2.234010</td>\n",
+              "      <td>59365.0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2012-01-05</th>\n",
+              "      <td>6.403105</td>\n",
+              "      <td>5.203903</td>\n",
+              "      <td>6.178595</td>\n",
+              "      <td>1.8184</td>\n",
+              "      <td>10.215547</td>\n",
+              "      <td>2.048216</td>\n",
+              "      <td>2.617195</td>\n",
+              "      <td>9.092162</td>\n",
+              "      <td>4.234452</td>\n",
+              "      <td>5.817819</td>\n",
+              "      <td>2.441660</td>\n",
+              "      <td>6.672909</td>\n",
+              "      <td>5.874084</td>\n",
+              "      <td>17.11215</td>\n",
+              "      <td>20.402132</td>\n",
+              "      <td>2.247974</td>\n",
+              "      <td>58546.0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2012-01-06</th>\n",
+              "      <td>6.386938</td>\n",
+              "      <td>5.072769</td>\n",
+              "      <td>6.255805</td>\n",
+              "      <td>1.8430</td>\n",
+              "      <td>10.120700</td>\n",
+              "      <td>2.056280</td>\n",
+              "      <td>2.630921</td>\n",
+              "      <td>9.160366</td>\n",
+              "      <td>4.283854</td>\n",
+              "      <td>5.898404</td>\n",
+              "      <td>2.508960</td>\n",
+              "      <td>6.678889</td>\n",
+              "      <td>5.915033</td>\n",
+              "      <td>17.11215</td>\n",
+              "      <td>20.226673</td>\n",
+              "      <td>2.222374</td>\n",
+              "      <td>58600.0</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-0f1c4065-7042-4c8d-be27-ab75dad01cea')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-0f1c4065-7042-4c8d-be27-ab75dad01cea button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-0f1c4065-7042-4c8d-be27-ab75dad01cea');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "<div id=\"df-31cfd138-c7dc-4fdc-bdbe-32d836017c56\">\n",
+              "  <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-31cfd138-c7dc-4fdc-bdbe-32d836017c56')\"\n",
+              "            title=\"Suggest charts\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\"viewBox=\"0 0 24 24\"\n",
+              "     width=\"24px\">\n",
+              "    <g>\n",
+              "        <path d=\"M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z\"/>\n",
+              "    </g>\n",
+              "</svg>\n",
+              "  </button>\n",
+              "\n",
+              "<style>\n",
+              "  .colab-df-quickchart {\n",
+              "      --bg-color: #E8F0FE;\n",
+              "      --fill-color: #1967D2;\n",
+              "      --hover-bg-color: #E2EBFA;\n",
+              "      --hover-fill-color: #174EA6;\n",
+              "      --disabled-fill-color: #AAA;\n",
+              "      --disabled-bg-color: #DDD;\n",
+              "  }\n",
+              "\n",
+              "  [theme=dark] .colab-df-quickchart {\n",
+              "      --bg-color: #3B4455;\n",
+              "      --fill-color: #D2E3FC;\n",
+              "      --hover-bg-color: #434B5C;\n",
+              "      --hover-fill-color: #FFFFFF;\n",
+              "      --disabled-bg-color: #3B4455;\n",
+              "      --disabled-fill-color: #666;\n",
+              "  }\n",
+              "\n",
+              "  .colab-df-quickchart {\n",
+              "    background-color: var(--bg-color);\n",
+              "    border: none;\n",
+              "    border-radius: 50%;\n",
+              "    cursor: pointer;\n",
+              "    display: none;\n",
+              "    fill: var(--fill-color);\n",
+              "    height: 32px;\n",
+              "    padding: 0;\n",
+              "    width: 32px;\n",
+              "  }\n",
+              "\n",
+              "  .colab-df-quickchart:hover {\n",
+              "    background-color: var(--hover-bg-color);\n",
+              "    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "    fill: var(--button-hover-fill-color);\n",
+              "  }\n",
+              "\n",
+              "  .colab-df-quickchart-complete:disabled,\n",
+              "  .colab-df-quickchart-complete:disabled:hover {\n",
+              "    background-color: var(--disabled-bg-color);\n",
+              "    fill: var(--disabled-fill-color);\n",
+              "    box-shadow: none;\n",
+              "  }\n",
+              "\n",
+              "  .colab-df-spinner {\n",
+              "    border: 2px solid var(--fill-color);\n",
+              "    border-color: transparent;\n",
+              "    border-bottom-color: var(--fill-color);\n",
+              "    animation:\n",
+              "      spin 1s steps(1) infinite;\n",
+              "  }\n",
+              "\n",
+              "  @keyframes spin {\n",
+              "    0% {\n",
+              "      border-color: transparent;\n",
+              "      border-bottom-color: var(--fill-color);\n",
+              "      border-left-color: var(--fill-color);\n",
+              "    }\n",
+              "    20% {\n",
+              "      border-color: transparent;\n",
+              "      border-left-color: var(--fill-color);\n",
+              "      border-top-color: var(--fill-color);\n",
+              "    }\n",
+              "    30% {\n",
+              "      border-color: transparent;\n",
+              "      border-left-color: var(--fill-color);\n",
+              "      border-top-color: var(--fill-color);\n",
+              "      border-right-color: var(--fill-color);\n",
+              "    }\n",
+              "    40% {\n",
+              "      border-color: transparent;\n",
+              "      border-right-color: var(--fill-color);\n",
+              "      border-top-color: var(--fill-color);\n",
+              "    }\n",
+              "    60% {\n",
+              "      border-color: transparent;\n",
+              "      border-right-color: var(--fill-color);\n",
+              "    }\n",
+              "    80% {\n",
+              "      border-color: transparent;\n",
+              "      border-right-color: var(--fill-color);\n",
+              "      border-bottom-color: var(--fill-color);\n",
+              "    }\n",
+              "    90% {\n",
+              "      border-color: transparent;\n",
+              "      border-bottom-color: var(--fill-color);\n",
+              "    }\n",
+              "  }\n",
+              "</style>\n",
+              "\n",
+              "  <script>\n",
+              "    async function quickchart(key) {\n",
+              "      const quickchartButtonEl =\n",
+              "        document.querySelector('#' + key + ' button');\n",
+              "      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.\n",
+              "      quickchartButtonEl.classList.add('colab-df-spinner');\n",
+              "      try {\n",
+              "        const charts = await google.colab.kernel.invokeFunction(\n",
+              "            'suggestCharts', [key], {});\n",
+              "      } catch (error) {\n",
+              "        console.error('Error during call to suggestCharts:', error);\n",
+              "      }\n",
+              "      quickchartButtonEl.classList.remove('colab-df-spinner');\n",
+              "      quickchartButtonEl.classList.add('colab-df-quickchart-complete');\n",
+              "    }\n",
+              "    (() => {\n",
+              "      let quickchartButtonEl =\n",
+              "        document.querySelector('#df-31cfd138-c7dc-4fdc-bdbe-32d836017c56 button');\n",
+              "      quickchartButtonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "    })();\n",
+              "  </script>\n",
+              "</div>\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "variable_name": "dados_close",
+              "summary": "{\n  \"name\": \"dados_close\",\n  \"rows\": 3270,\n  \"fields\": [\n    {\n      \"column\": \"Date\",\n      \"properties\": {\n        \"dtype\": \"date\",\n        \"min\": \"2012-01-02 00:00:00\",\n        \"max\": \"2024-07-12 00:00:00\",\n        \"num_unique_values\": 3270,\n        \"samples\": [\n          \"2018-04-20 00:00:00\",\n          \"2012-07-06 00:00:00\",\n          \"2013-07-30 00:00:00\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ABEV3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2.3015240499963223,\n        \"min\": 6.34216833114624,\n        \"max\": 19.354806900024414,\n        \"num_unique_values\": 2448,\n        \"samples\": [\n          12.837251663208008,\n          15.030593872070312,\n          18.326059341430664\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"BBAS3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 6.066099449065227,\n        \"min\": 3.884359836578369,\n        \"max\": 28.76270294189453,\n        \"num_unique_values\": 2923,\n        \"samples\": [\n          5.971305847167969,\n          15.094058990478516,\n          7.552141189575195\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"BBDC4.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 4.4648217602893085,\n        \"min\": 5.212928771972656,\n        \"max\": 22.395492553710938,\n        \"num_unique_values\": 2958,\n        \"samples\": [\n          13.678450584411621,\n          20.683879852294922,\n          8.465144157409668\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"BRL=X\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1.2088723655066447,\n        \"min\": 1.697700023651123,\n        \"max\": 5.88640022277832,\n        \"num_unique_values\": 3039,\n        \"samples\": [\n          2.00600004196167,\n          4.7855000495910645,\n          2.03410005569458\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ELET3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 13.971894690061244,\n        \"min\": 2.892479419708252,\n        \"max\": 50.68748474121094,\n        \"num_unique_values\": 2448,\n        \"samples\": [\n          41.71372985839844,\n          25.440452575683594,\n          31.09925079345703\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"EQTL3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 9.56204667196164,\n        \"min\": 1.9014536142349243,\n        \"max\": 35.28375244140625,\n        \"num_unique_values\": 2570,\n        \"samples\": [\n          27.74394416809082,\n          23.42109489440918,\n          11.45822525024414\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ITSA4.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2.278657911184359,\n        \"min\": 2.0464766025543213,\n        \"max\": 10.530588150024414,\n        \"num_unique_values\": 2612,\n        \"samples\": [\n          4.010714530944824,\n          2.770972490310669,\n          2.57714581489563\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ITUB4.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 7.348567453734621,\n        \"min\": 7.186216831207275,\n        \"max\": 34.2924690246582,\n        \"num_unique_values\": 2980,\n        \"samples\": [\n          23.090957641601562,\n          31.378154754638672,\n          11.898605346679688\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"JBSS3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 8.504730004614482,\n        \"min\": 3.5004801750183105,\n        \"max\": 34.55332565307617,\n        \"num_unique_values\": 2451,\n        \"samples\": [\n          9.556012153625488,\n          8.976858139038086,\n          6.67918586730957\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"LREN3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 10.403664095311369,\n        \"min\": 5.626430988311768,\n        \"max\": 48.8983154296875,\n        \"num_unique_values\": 2889,\n        \"samples\": [\n          6.589315891265869,\n          18.82191276550293,\n          22.670499801635742\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"MGLU3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 62.86268176461567,\n        \"min\": 0.2791057825088501,\n        \"max\": 256.2932434082031,\n        \"num_unique_values\": 2526,\n        \"samples\": [\n          201.88343811035156,\n          0.6672881841659546,\n          3.4907195568084717\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"PETR4.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 8.254957674302172,\n        \"min\": 1.3865081071853638,\n        \"max\": 40.51567077636719,\n        \"num_unique_values\": 2608,\n        \"samples\": [\n          8.792916297912598,\n          8.539887428283691,\n          5.94734525680542\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"RENT3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 20.712676729222537,\n        \"min\": 5.372499465942383,\n        \"max\": 69.76040649414062,\n        \"num_unique_values\": 2896,\n        \"samples\": [\n          8.22364330291748,\n          62.51502990722656,\n          37.69502639770508\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"SUZB3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 15.441901777429502,\n        \"min\": 15.635965347290039,\n        \"max\": 72.69038391113281,\n        \"num_unique_values\": 1520,\n        \"samples\": [\n          34.81206130981445,\n          48.93559265136719,\n          58.459999084472656\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"VALE3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 23.18058825282661,\n        \"min\": 5.136928558349609,\n        \"max\": 88.22431182861328,\n        \"num_unique_values\": 2862,\n        \"samples\": [\n          27.90598487854004,\n          65.18666076660156,\n          12.062397003173828\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"WEGE3.SA\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 13.650576492499093,\n        \"min\": 2.1205387115478516,\n        \"max\": 45.880001068115234,\n        \"num_unique_values\": 2808,\n        \"samples\": [\n          8.695253372192383,\n          25.626482009887695,\n          28.08641815185547\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"^BVSP\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 27517.83970087321,\n        \"min\": 37497.0,\n        \"max\": 134194.0,\n        \"num_unique_values\": 3022,\n        \"samples\": [\n          72487.0,\n          57978.0,\n          55701.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#### **Biblioteca Sweetviz - Sweetviz Librarie**"
+      ],
+      "metadata": {
+        "id": "5-jv-wlxBGIL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "visual = sv.analyze(dados_close)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 49,
+          "referenced_widgets": [
+            "0431086c7de54083a05083cb12e0e65c",
+            "cd452ee36d8c4ddca8f0ccb2807ab8fc",
+            "c9089b93553f46328638b4d8b12427f9",
+            "245a86fe3d1743e698838aa1d7f3e965",
+            "f55990bcef854a8fa41d43021d520bb6",
+            "557cbe8fd38148e59d702aff58140345",
+            "3650b8f838994759a29bdd4cfa176b57",
+            "a3f2fa500a524724a3aa9bf20dff6947",
+            "4f6fa501d71e47ad87967e48edd33707",
+            "ce695936c7f84059a5af9d988ade1928",
+            "1ae0d3b0909d4080a8f2181e4cf88845"
+          ]
+        },
+        "id": "ETRHjsyc9YIR",
+        "outputId": "6e248379-fe63-438b-d8bc-3ca3f5143884"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "                                             |          | [  0%]   00:00 -> (? left)"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "0431086c7de54083a05083cb12e0e65c"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "visual.show_html('RelatorioMF.html')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u2MWiooK93VD",
+        "outputId": "ab67e692-1cb0-4ec6-a624-e0961c9c86b9"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Report RelatorioMF.html was generated! NOTEBOOK/COLAB USERS: the web browser MAY not pop up, regardless, the report IS saved in your notebook/colab files.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "O arquivo é salvo na aba lateral e diretório padrão do Google Colab.\n",
+        "The file is saved in the sidebar and default directory of Google Colab.\n",
+        "\n",
+        "* Crédito do Código: Trading com Dados\n",
+        "* Code Credits: Trading com Dados"
+      ],
+      "metadata": {
+        "id": "TjwBK8FuBNnx"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "c-bg2PXUBW1M"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
